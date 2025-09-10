@@ -57,4 +57,4 @@ if __name__ == "__main__":
     threading.Thread(target=keep_alive, daemon=True).start()
 
     # Start Flask app
-    app.run(host="0.0.0.0", port=9683)
+    app.run(host="0.0.0.0", port=5000)
