@@ -2142,7 +2142,7 @@ def handle_start(message):
     credits = "0"
 
     caption = f"""
-↯ ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ sᴛᴏʀᴍ x
+↯ sᴛᴏʀᴍ x
 
 <a href='https://t.me/voidboy336'>[⸙]</a> ғᴜʟʟ ɴᴀᴍᴇ ⌁ {mention}
 <a href='https://t.me/voidboy336'>[⸙]</a> ᴊᴏɪɴ ᴅᴀᴛᴇ ⌁ {join_date_formatted}
@@ -2357,7 +2357,7 @@ def handle_callback(call):
         # Return to main welcome screen with original buttons
         join_date_formatted = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(call.message.date))
         main_text = f"""
-↯ ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ sᴛᴏʀᴍ x
+↯ ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴠᴏɪᴅ x
 
 <a href='https://t.me/voidboy336'>[⸙]</a> ғᴜʟʟ ɴᴀᴍᴇ ⌁ {mention}
 <a href='https://t.me/backyXchannel'>[⸙]</a> ᴊᴏɪɴ ᴅᴀᴛᴇ ⌁ {join_date_formatted}
